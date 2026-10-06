@@ -19,7 +19,7 @@ export function Header() {
     <header className="header">
       <div className="container nav">
         <Link href="/" className="brand">
-          Immo<span>Sens</span>
+          Alexandre <span>Chassagne</span>
         </Link>
 
         <nav className={open ? "nav-open" : ""}>
