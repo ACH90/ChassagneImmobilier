@@ -18,7 +18,8 @@ export default function Home() {
 
         <Marquee>
           Tourcoing · Malcense · Virolois · Gambetta · Clinquet · Chêne Houpline
-          · Épidème · Ma Campagne
+          · Épidème · Ma Campagne / Roncq · Halluin · Bondues · Linselles ·
+          Bousbecque
         </Marquee>
 
         <IntroSection />
@@ -27,9 +28,9 @@ export default function Home() {
 
         <SellingSection />
 
-        <BuyersSection />
+        {/* <BuyersSection /> */}
 
-        <AboutPreview />
+        {/* <AboutPreview /> */}
 
         <ContactCTA />
       </main>

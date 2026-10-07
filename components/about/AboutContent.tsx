@@ -1,5 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import { Button, PhotoPlaceholder } from "@/components/site";
+import Image from "next/image";
 
 export function AboutContent() {
   return (
@@ -21,8 +22,14 @@ export function AboutContent() {
 
       <section className="section">
         <div className="container about-grid">
-          <div className="reveal">
-            <PhotoPlaceholder label="Photo d'Alexandre" />
+          <div className="reveal delay-2 photo-placeholder">
+            <Image
+              src="/images/achassagne_pic.PNG"
+              alt="Alexandre Chassagne, conseiller immobilier à Tourcoing"
+              fill
+              sizes="(max-width: 650px) 50vw, 50vw"
+              className="object-cover"
+            />
           </div>
 
           <div className="reveal delay-2">

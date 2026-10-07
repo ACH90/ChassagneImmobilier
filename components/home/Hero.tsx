@@ -10,7 +10,9 @@ export function Hero() {
         <h1 className="serif">
           Vous envisagez de vendre votre bien immobilier ?
           <br />
-          <em>Commençons par connaître la valeur réelle de votre bien.</em>
+          <em className="hero-highlight">
+            Commençons par connaître la valeur réelle de votre bien.
+          </em>
         </h1>
 
         <p className="lead">
@@ -23,9 +25,9 @@ export function Hero() {
             Demander une estimation <ArrowRight size={18} />
           </Button>
 
-          <Button href="tel:+33" variant="ghost">
+          {/* <Button href="tel:+33" variant="ghost">
             <Phone size={17} /> Échanger par téléphone
-          </Button>
+          </Button> */}
         </div>
 
         <div className="trust">

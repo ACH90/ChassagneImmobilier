@@ -10,7 +10,7 @@ const checks = [
 
 export function SellingSection() {
   return (
-    <section className="section">
+    <section className="section dark">
       <div className="container split">
         <div className="reveal">
           <p className="eyebrow">VENDRE À TOURCOING</p>
@@ -33,12 +33,12 @@ export function SellingSection() {
             ))}
           </ul>
 
-          <Button href="/vendre-a-tourcoing" variant="secondary">
+          <Button href="/vendre-a-tourcoing" variant="ghost">
             Préparer mon projet de vente <ArrowRight size={18} />
           </Button>
         </div>
 
-        <div className="quote lift">
+        <div className="quote lift dark">
           <span>“</span>
 
           <p>

@@ -12,9 +12,10 @@ export function IntroSection() {
           <h2>Bonjour, je suis Alexandre.</h2>
 
           <p>
-            Votre interlocuteur immobilier sur Tourcoing et ses alentours. Mon
-            objectif est simple : vous donner une vision claire de votre bien et
-            vous accompagner dans votre projet, sans discours inutile.
+            Conseiller immobilier partenaire du groupe ImmoSens et votre
+            interlocuteur sur Tourcoing et ses alentours. Mon objectif est
+            simple : vous donner une vision claire de votre bien et vous
+            accompagner dans votre projet, sans discours inutile.
           </p>
 
           <Link className="text-link" href="/a-propos">

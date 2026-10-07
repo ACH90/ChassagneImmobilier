@@ -10,16 +10,17 @@ export function Header() {
   const nav = [
     ["Accueil", "/"],
     ["Estimation", "/estimation-immobiliere-tourcoing"],
-    ["Vendre à Tourcoing", "/vendre-a-tourcoing"],
-    ["Biens recherchés", "/biens-recherches"],
+    ["Vendre son bien", "/vendre-a-tourcoing"],
     ["À propos", "/a-propos"],
   ];
 
   return (
     <header className="header">
+      <div className="menu-overlay" onClick={() => setOpen(false)} />
+
       <div className="container nav">
         <Link href="/" className="brand">
-          Alexandre <span>Chassagne</span>
+          <span>Alexandre</span> Chassagne
         </Link>
 
         <nav className={open ? "nav-open" : ""}>
@@ -30,14 +31,10 @@ export function Header() {
           ))}
         </nav>
 
-        <a className="phone-link" href="tel:+33">
-          <Phone size={16} />
-          Appeler
-        </a>
-
         <button
           className="menu"
-          aria-label="Ouvrir le menu"
+          aria-label={open ? "Fermer le menu" : "Ouvrir le menu"}
+          aria-expanded={open}
           onClick={() => setOpen((v) => !v)}
         >
           {open ? <X /> : <Menu />}
