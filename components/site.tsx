@@ -9,9 +9,10 @@ export function Header() {
 
   const nav = [
     ["Accueil", "/"],
-    ["Estimation", "/estimation-immobiliere-tourcoing"],
+    ["Estimation de bien", "/estimation-immobiliere-tourcoing"],
     ["Vendre son bien", "/vendre-a-tourcoing"],
     ["À propos", "/a-propos"],
+    ["Contact", "/contact"],
   ];
 
   return (
