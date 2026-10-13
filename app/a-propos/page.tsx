@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     canonical: "/a-propos",
   },
   openGraph: {
-    title: "À propos d’Alexandre Chassagne",
+    title: "À propos",
     description:
       "Votre interlocuteur immobilier à Tourcoing et dans la vallée de la Lys, pour vous accompagner dans votre projet de vente.",
     url: "/a-propos",
