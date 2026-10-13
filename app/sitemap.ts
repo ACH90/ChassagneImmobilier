@@ -1,2 +1,16 @@
-import type { MetadataRoute } from 'next'
-export default function sitemap(): MetadataRoute.Sitemap {const base='https://example.com';return ['','/estimation-immobiliere-tourcoing','/vendre-a-tourcoing','/biens-recherches','/a-propos','/contact'].map(path=>({url:base+path,lastModified:new Date(),changeFrequency:'monthly',priority:path===''?1:.8}))}
+import type { MetadataRoute } from "next";
+export default function sitemap(): MetadataRoute.Sitemap {
+  const base = "https://chassagne-immobilier.fr";
+  return [
+    "",
+    "/estimation-immobiliere-tourcoing",
+    "/vendre-a-tourcoing",
+    "/a-propos",
+    "/contact",
+  ].map((path) => ({
+    url: base + path,
+    lastModified: new Date(),
+    changeFrequency: "monthly",
+    priority: path === "" ? 1 : 0.8,
+  }));
+}
