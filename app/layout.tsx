@@ -2,21 +2,21 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://example.com"),
+  metadataBase: new URL("https://chassagne-immobilier.fr"),
   title: {
     default: "Alexandre Chassagne | Conseiller immobilier à Tourcoing",
     template: "%s | Alexandre Chassagne",
   },
   description:
-    "Conseiller immobilier à Tourcoing. Estimation immobilière sur place, accompagnement à la vente et connaissance du marché local.",
-  alternates: { canonical: "/" },
+    "Conseiller immobilier à Tourcoing et sur toute la vallée de la Lys. Estimation immobilière sur place, accompagnement à la vente et connaissance du marché local.",
+
   openGraph: {
     type: "website",
     locale: "fr_FR",
     title: "Alexandre Chassagne | Conseiller immobilier à Tourcoing",
     description:
       "Estimation immobilière et accompagnement à la vente à Tourcoing et ses alentours.",
-    url: "/",
+    siteName: "Alexandre Chassagne",
   },
   robots: { index: true, follow: true },
 };
